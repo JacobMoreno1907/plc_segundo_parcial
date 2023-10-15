@@ -1,3 +1,4 @@
+#https://replit.com/@Jacob-OlafOlaf/Compra-con-Descuentos-Multiples?v=1
 precio = float(input("Ingrese el precio del producto: $"))
 categoria = input("Ingrese la categoría (A, B o C): ")
 cantidad = float(input("Ingrese la cantidad de unidades compradas: "))

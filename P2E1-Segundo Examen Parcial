@@ -1,0 +1,27 @@
+temperatura = float(input("¿Cuál es la temperatura ambiente? (°C): "))
+riego = input("¿Que día de la semana es?: ")
+if temperatura < 20:
+  print("Llevarla adentro de la casa")
+elif temperatura >= 20 and temperatura <= 25:
+  print("Buenas condiciones")
+elif temperatura > 25:
+  print("Llevarla dentro de casa y encender el ventilador")
+else:
+  print("Esa opción no es correcta en la temperatura")
+
+if riego == "martes":
+  print("Regar a Rubí")
+elif riego == "jueves":
+  print("Regar a Rubí")
+elif riego == "sábado":
+  print("Regar a Rubí")
+elif riego == "lunes":
+  print("No regar a Rubí")
+elif riego == "miércoles":
+  print("No regar a Rubí")
+elif riego == "viernes":
+  print("No regar a Rubí")
+elif riego == "domingo":
+  print("No regar a Rubí")
+else:
+  print("Esa opción no es correcta en el día de la semana")
